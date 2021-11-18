@@ -5,6 +5,7 @@ import Welcome from '../screens/Welcome';
 import SignUp from '../screens/SignUp';
 import Login from '../screens/Login';
 import Home from '../screens/Home';
+import NewPurchase from '../screens/NewPurchase';
 
 const { Navigator, Screen } = createStackNavigator();
 
@@ -19,6 +20,7 @@ const StackRoutes = () => {
       <Screen name="SignUp" component={SignUp} />
       <Screen name="Login" component={Login} />
       <Screen name="Home" component={Home} />
+      <Screen name="NewPurchase" component={NewPurchase} />
     </Navigator>
   );
 };

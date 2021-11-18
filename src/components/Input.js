@@ -4,7 +4,7 @@ import { FontAwesome } from '@expo/vector-icons';
 
 const Input = ({ title, name, value, newValue, placeholder, secureTextEntry }) => {
   return (
-    <View style={styles.container}>
+    <View>
       <Text style={styles.title}>{title}</Text>
       <View style={styles.bord} />
       <View style={styles.inputView}>
